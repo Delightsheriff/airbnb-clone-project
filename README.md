@@ -79,7 +79,7 @@ The following are the key entities required for the project:
 
 #### Entity Relationships
 
-- A **User** can own multiple **Properties**.
+- A **User** can own and book multiple **Properties**.
 - A **Property** can have multiple **Bookings** and **Reviews**.
 - A **Booking** belongs to one **User** and one **Property**.
 - A **Review** is written by a **User** for a **Property**.
@@ -128,3 +128,17 @@ Implements database optimizations for efficient data retrieval and storage. This
 - **Protecting User Data:** Safeguards sensitive information like personal details and passwords from unauthorized access.
 - **Securing Payments:** Ensures all financial transactions are encrypted and protected against fraud.
 - **Maintaining Trust:** Prevents malicious activities, builds user confidence, and ensures compliance with data protection regulations.
+
+---
+
+## 🚦 CI/CD Pipeline
+
+Continuous Integration and Continuous Deployment (CI/CD) pipelines automate the process of building, testing, and deploying code changes. They help ensure that new features and bug fixes are integrated smoothly, tested thoroughly, and delivered quickly to production environments. This reduces manual errors and accelerates development cycles.
+
+For this project, CI/CD pipelines are crucial for maintaining code quality, enabling rapid iteration, and ensuring reliable deployments. Automated testing and deployment help catch issues early and keep the application stable as new changes are introduced.
+
+**Tools commonly used for CI/CD in this project include:**
+
+- **GitHub Actions:** Automates workflows for building, testing, and deploying code directly from GitHub repositories.
+- **Docker:** Provides containerization for consistent environments across development, testing, and production.
+- **Other Integrations:** Services like Travis CI, Jenkins, or GitLab CI can also be used for advanced automation and monitoring.
